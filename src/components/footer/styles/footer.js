@@ -43,5 +43,5 @@ export const Title = styled.p`
 
 export const Break = styled.p`
     flex-basis: 100%;
-    height
+    height: 0;
 `
