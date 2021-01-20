@@ -8,4 +8,4 @@ OptForm.Input = function OptFormInput({ ...restProps }) {
     return <Input { ...restProps } />;
 };
 
-OptForm.Button = function OptFormButton( { childre, ...restProps})
+OptForm.Button = function OptFormButton( { children, ...restProps})
