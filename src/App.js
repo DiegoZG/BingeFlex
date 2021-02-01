@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route, Switch } from 'react-router'
 import { FaqsContainer } from './containers/faqs';
 import { FooterContainer } from './containers/footer';
 import { JumbotronContainer } from './containers/jumbotron';
