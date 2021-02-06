@@ -13,6 +13,9 @@ export default function App() {
     <FaqsContainer />
     <FooterContainer />
     </Route>
+    <Route exact path="/user">
+      <p>hello</p>
+    </Route>
     </Router>
   )
   
