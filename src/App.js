@@ -8,7 +8,7 @@ import * as ROUTES from './constants/routes'
 export default function App() {
   return (
     <Router>
-      <Route exact path="/signin">
+      <Route exact path="{ROUTES.HOME}">
     <JumbotronContainer />
     <FaqsContainer />
     <FooterContainer />
