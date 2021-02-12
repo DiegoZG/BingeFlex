@@ -6,8 +6,14 @@ import * as ROUTES from './constants/routes'
 export default function App() {
   return (
     <Router>
-    <Route exact path="/user">
-      <p>hello</p>
+      <Route exact path="/signup">
+      <Signup />
+    </Route>
+    <Route exact path="/signup">
+      <Signup />
+    </Route>
+    <Route exact path="/signup">
+      <Signup />
     </Route>
     <Route exact path="{ROUTES.HOME}">
       
