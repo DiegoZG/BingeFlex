@@ -1,16 +1,16 @@
 import React from 'react';
 import { BrowserRouter, Router, Switch, Route } from 'react-router-dom'
-import { Home, Browse, Sigin, Signup } from './pages'
+import { Home, Browse, Signin, Signup } from './pages'
 import * as ROUTES from './constants/routes'
 
 export default function App() {
   return (
     <Router>
-      <Route exact path="/signup">
-      <Signup />
+      <Route exact path="/browse">
+      <Browse />
     </Route>
-    <Route exact path="/signup">
-      <Signup />
+    <Route exact path="/signin">
+      <Signin />
     </Route>
     <Route exact path="/signup">
       <Signup />
