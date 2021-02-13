@@ -1,9 +1,14 @@
 import React from 'react'  
+import { Header } from '../components/accordion/styles/accordion'
 
 export default function HeaderContainer() {
     return (
-        <Header >
-            
-        </Header>
+        <Header>
+            <Header.Frame>
+                <Header.Logo />
+                
+            </Header.Frame>
+
+        </Header.Logo>
     )
 }
