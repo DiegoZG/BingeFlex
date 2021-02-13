@@ -6,7 +6,8 @@ export default function HeaderContainer() {
         <Header>
             <Header.Frame>
                 <Header.Logo />
-                
+                <Header.Button />
+
             </Header.Frame>
 
         </Header.Logo>
