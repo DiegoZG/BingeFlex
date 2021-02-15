@@ -1,4 +1,5 @@
-import React from 'react'  
+import React from 'react' 
+import { Accordion } from '../components'; 
 import { Header } from '../components/accordion/styles/accordion'
 
 export default function HeaderContainer() {
