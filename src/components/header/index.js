@@ -5,5 +5,5 @@ export default function Header ({bg = true, children, ...restProps}) {
 }
 
 Header.Frame = function HeaderFrame({children, ...restProps}) {
-    return <Container></Container>
+    return <Container {...restProps}> {} </Container>
 }
