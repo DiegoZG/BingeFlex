@@ -1,4 +1,5 @@
 import React from 'react' 
+import { Link as ReactRouterLink } from 'react-router-dom'
 
 export default function Header ({bg = true, children, ...restProps}) {
     return bg ? <Background { ...restProps}> {children}</Background>
@@ -11,7 +12,7 @@ Header.Frame = function HeaderFrame({children, ...restProps}) {
 Header.Logo = function HeaderLogo({ to, ...restProps}) {
     return (
         <ReactRouterLink to={to}>
-            <Logo {...restProps}></Logo>
+            <Logo {...restProps}/>        
         </ReactRouterLink>
     )
 }
