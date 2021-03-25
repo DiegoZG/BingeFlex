@@ -1,16 +1,14 @@
-import React from 'react' 
-import { Header } from '../components'; 
-import { Header } from '../components/accordion/styles/accordion'
+import React from "react";
+import { Header } from "../components";
+import { Header } from "../components/accordion/styles/accordion";
 
-export default function HeaderContainer() {
-    return (
-        <Header>
-            <Header.Frame>
-                <Header.Logo />
-                <Header.Button />
-
-            </Header.Frame>
-
-        </Header.Logo>
-    )
+export function HeaderContainer({ children }) {
+  return (
+    <Header>
+      <Header.Frame>
+        <Header.Logo />
+        <Header.Button />
+      </Header.Frame>
+    </Header>
+  );
 }
