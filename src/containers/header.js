@@ -8,6 +8,7 @@ export function HeaderContainer({ children }) {
         <Header.Logo />
         <Header.Button />
       </Header.Frame>
+      {children}
     </Header>
   );
 }
